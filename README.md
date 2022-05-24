@@ -1,4 +1,4 @@
-![Example Output](https://cdn.discordapp.com/attachments/917023294404833281/978564211225546773/unknown.png)
+![Example Output](https://cdn.discordapp.com/attachments/917023294404833281/978565003584081950/unknown.png)
 
 
 # Usage
