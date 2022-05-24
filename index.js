@@ -15,7 +15,6 @@ cs.usagePercent(function (error, percent, second) {
         res.send({
             cpuname: (await si.cpu()).brand,
             cpucore: (await si.cpu()).cores,
-            cpumhz: (await si.cpu()).speedMax,
             cpuusage: percent.toFixed(2),
             ramusage: Math.round((await si.mem()).active / 1024 / 1024),
             ramtotal: Math.round((await si.mem()).total / (1024 * 1024)),
